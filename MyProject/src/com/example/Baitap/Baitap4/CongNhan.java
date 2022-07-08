@@ -12,7 +12,10 @@ public class CongNhan extends CanBo{
 
     }
 
-
+    @Override
+    public String toString() {
+        return "Ho Ten : "+ getHoTen() +" Tuoi : "+getTuoi() + " Gioi tinh : "+getGioiTinh() +" Dia chi : "+getDiaChi()+" Cap bac : "+getCapBac();
+    }
 
     public int getCapBac() {
         return capBac;

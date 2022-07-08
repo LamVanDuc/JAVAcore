@@ -45,5 +45,10 @@ public class CanBo {
         this.diaChi = diaChi;
     }
 
+    @Override
+    public String toString(){
+        return "Ho Ten : "+ getHoTen() +" Tuoi : "+getTuoi() + " Gioi tinh : "+getGioiTinh() +" Dia chi : "+getDiaChi();
+    }
+
 
 }
